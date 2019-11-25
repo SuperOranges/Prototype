@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Radios与Buttons的联动</title>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    <section>
+        <div>
+            <input id="radio1" name="radiosGroup1" type="radio" value="A" checked /><label for="radio1">选项A</label>
+            <input id="radio4" type="radio" value="值A" checked /><label for="radio4">值A</label>
+            <button id="button1" type="button">按钮A</button>
+        </div>
+        <div>
+            <input id="radio2" name="radiosGroup1" type="radio" value="B" /><label for="radio2">选项B</label>
+            <input id="radio5" type="radio" value="值B" checked /><label for="radio5">值B</label>
+            <button id="button2" type="button" disabled>按钮B</button>
+        </div>
+        <div>
+            <input id="radio3" name="radiosGroup1" type="radio" value="c" /><label for="radio3">选项C</label>
+            <input id="radio6" type="radio" value="值c" checked /><label for="radio6">值C</label>
+            <button id="button3" type="button" disabled>按钮C</button>
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <h2>场景说明</h2>
+            <p> 现在需要单选按钮与button按钮的联动，即选中一个单选按钮，那么对应列的button按钮将被启用，其他按钮均被禁用，并且需要一个方法获取到当前选中的单选框的值。 </p>
+        </div>
+    </section>
+    <section>
+        <h2>知识点说明</h2>
+        <ul>
+            <li>todo....</li>
+        </ul>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
